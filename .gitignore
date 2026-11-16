@@ -1,0 +1,28 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Methods API docs (private, excluded from git per instructions)
+methods_api/
+api_methods/
